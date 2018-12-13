@@ -1,0 +1,47 @@
+[
+  {
+    "model": "elastic_settings.elasticsettings",
+    "pk":1,
+    "fields": {
+      "name": "result_number",
+      "title": "Кол-во возвращаемых записей",
+      "user_id": null,
+      "setting": { "100":null}
+    }
+  },
+  {
+    "model": "elastic_settings.elasticsettings",
+    "pk":2,
+    "fields": {
+      "name": "field_query_string",
+      "title": "query_string шаблоны для полей",
+      "user_id": null,
+      "setting": {
+        "default": {
+            "query_string": {
+                "default_field": "*{0}*",
+                "query": "{0}"
+            }
+        },
+        "phone": {
+            "query_string": {
+                "default_field": "*{0}*",
+                "query": "{0}~2",
+                "analyzer": "whitespace",
+                "lenient": true
+            }
+        },
+        "address": {
+            "query_string": {
+                "default_field": "*{}*",
+                "query": "{}",
+                "analyze_wildcard": true,
+                "lenient": true,
+                "fuzziness": 3
+            }
+        }
+      }
+    }
+  }
+
+]

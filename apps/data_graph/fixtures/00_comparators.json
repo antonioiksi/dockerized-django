@@ -1,0 +1,19 @@
+[
+  {
+    "model": "data_graph.graphattributecomparator",
+    "pk":1,
+    "fields": {
+      "attribute_one": "antonio",
+      "attribute_two": "secret",
+      "func_name": "equal"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk":2,
+    "fields": {
+      "username": "user",
+      "password": "secret"
+    }
+  }
+]

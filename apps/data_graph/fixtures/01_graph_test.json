@@ -1,0 +1,10 @@
+[
+  {
+    "model": "data_graph.graph",
+    "pk":1,
+    "fields": {
+      "user_id": 1,
+      "name": "graph01"
+    }
+  }
+]

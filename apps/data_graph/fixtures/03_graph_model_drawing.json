@@ -1,0 +1,82 @@
+[
+  {
+    "model": "data_graph.graphmodeldrawing",
+    "pk":1,
+    "fields": {
+      "name": "person",
+      "json": {
+        "shape": "icon",
+        "icon": {
+          "face": "FontAwesome",
+          "code": "\uf007",
+          "size": "50",
+          "color": "#aa00ff"
+        }
+      }
+    }
+  },
+  {
+    "model": "data_graph.graphmodeldrawing",
+    "pk":2,
+    "fields": {
+      "name": "phone",
+      "json": {
+        "shape": "icon",
+        "icon": {
+          "face": "FontAwesome",
+          "code": "\uf098",
+          "size": "50",
+          "color": "#f0a30a"
+        }
+      }
+    }
+  },
+  {
+    "model": "data_graph.graphmodeldrawing",
+    "pk":3,
+    "fields": {
+      "name": "company",
+      "json": {
+        "shape": "icon",
+        "icon": {
+          "face": "FontAwesome",
+          "code": "\uf1ad",
+          "size": "50",
+          "color": "#f0a30a"
+        }
+      }
+    }
+  },
+  {
+    "model": "data_graph.graphmodeldrawing",
+    "pk":4,
+    "fields": {
+      "name": "address",
+      "json": {
+        "shape": "icon",
+        "icon": {
+          "face": "FontAwesome",
+          "code": "\uf041",
+          "size": "50",
+          "color": "#f0a30a"
+        }
+      }
+    }
+  },
+  {
+    "model": "data_graph.graphmodeldrawing",
+    "pk":5,
+    "fields": {
+      "name": "email",
+      "json": {
+        "shape": "icon",
+        "icon": {
+          "face": "FontAwesome",
+          "code": "\uf0e0",
+          "size": "50",
+          "color": "#f0a30a"
+        }
+      }
+    }
+  }
+]

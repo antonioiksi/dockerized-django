@@ -1,0 +1,27 @@
+---
+# To install python module copy .whl into current dir and run command from current dir:
+# ansible-playbook playbook-install-python-module.yml -u user -i hosts --extra-vars "package_file=isort-4.3.4-py3-none-any.whl" -vvv
+
+- name: Install python module
+#  hosts: all
+  hosts: dev
+  tasks:
+
+    - name: install-python-module-start
+      ping:
+
+    - name: copy python module file
+      copy:
+        src: "{{ package_file }}"
+        dest: /tmp
+
+#    - name: Install module with pip
+#      pip:
+#        name: file:///tmp/{{ package_file }}
+#        virtualenv: /var/opt/flo-backend/venvpy35
+
+#TODO doesnot work removing
+#    - name: remove package file
+#      file:
+#        path: /tmp/"{{ package_file }}"
+#        state: absents

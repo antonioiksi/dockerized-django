@@ -1,0 +1,52 @@
+[
+  {
+    "model": "data_graph.graphmodel",
+    "pk":1,
+    "fields": {
+      "graph_id": 1,
+      "name": "person",
+      "fields": ["speaker"],
+      "drawing_id": 1
+    }
+  },
+  {
+    "model": "data_graph.graphmodel",
+    "pk":2,
+    "fields": {
+      "graph_id": 1,
+      "name": "phone",
+      "fields": ["phone"],
+      "drawing_id": 2
+    }
+  },
+  {
+    "model": "data_graph.graphmodel",
+    "pk":3,
+    "fields": {
+      "graph_id": 1,
+      "name": "phoneA",
+      "fields": ["phoneA"],
+      "drawing_id": 2
+    }
+  },
+  {
+    "model": "data_graph.graphmodel",
+    "pk":4,
+    "fields": {
+      "graph_id": 1,
+      "name": "phoneB",
+      "fields": ["phoneB"],
+      "drawing_id": 2
+    }
+  },
+  {
+    "model": "data_graph.graphmodel",
+    "pk":5,
+    "fields": {
+      "graph_id": 1,
+      "name": "company",
+      "fields": ["_id","_index"],
+      "drawing_id": null
+    }
+  }
+]

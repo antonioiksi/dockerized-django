@@ -1,0 +1,38 @@
+---
+# To install copy .deb into current dir and run command from current dir:
+# ansible-playbook playbook-install-deb.yml -u user -i hosts --extra-vars "package_name=toilet dir=toilet}" -vvv -sudo
+
+- name: Install .deb
+  hosts: prod
+  tasks:
+
+    - name: Test ping
+      ping:
+
+    - name: Echo vars
+      command: echo {{dir}}
+
+# Copy file
+#    - name: Copy {{ file }} to /tmp
+#      copy:
+#        src: "{{ package_file }}"
+#        dest: /tmp
+
+    # Copy dir
+    - name: Copy files from {{ dir }} to /tmp
+      copy:
+        src: "{{dir}}"
+        dest: /tmp
+#        dest: /var/cache/apt/archives
+#    - name: Install a .deb package
+#      apt:
+#        deb: /tmp/{{ package_file }}
+
+    - name: Install *.deb from /tmp/{{dir}} recursivly
+      command: sudo dpkg -i -R /tmp/{{dir}}
+
+#TODO doesnot work removing
+#    - name: remove package file
+#      file:
+#        path: /tmp/"{{ package_file }}"
+#        state: absents

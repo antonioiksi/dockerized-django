@@ -1,0 +1,34 @@
+[
+  {
+    "model": "data_graph.graphdata",
+    "pk":1,
+    "fields": {
+      "graph_id": 1,
+      "data": {"phone":"123123123", "_id": "40001", "_type": "line", "_index": "shakespeare", "_score": 10.968148, "line_id": 40002, "speaker": "FRENCH KING", "play_name": "Henry V", "text_entry": "maiden walls that war hath never entered.", "line_number": "5.2.321", "speech_number": 67}
+    }
+  },
+  {
+    "model": "data_graph.graphdata",
+    "pk":2,
+    "fields": {
+      "graph_id": 1,
+      "data": {"_id": "4752", "_type": "line", "_index": "shakespeare", "_score": 10.873325, "line_id": 4753, "speaker": "JOAN LA PUCELLE", "play_name": "Henry VI Part 1", "text_entry": "Exeunt from the walls", "line_number": "", "speech_number": 27}
+    }
+  },
+  {
+    "model": "data_graph.graphdata",
+    "pk":3,
+    "fields": {
+      "graph_id": 1,
+      "data": {"phoneA": "11111", "phoneB": "22222"}
+    }
+  },
+  {
+    "model": "data_graph.graphdata",
+    "pk":4,
+    "fields": {
+      "graph_id": 1,
+      "data": {"phoneA": "22222", "phoneB": "333333"}
+    }
+  }
+]

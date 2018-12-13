@@ -1,0 +1,24 @@
+[
+  {
+    "model": "data_graph.graphrelation",
+    "pk":1,
+    "fields": {
+      "graph_id": 1,
+      "name": "similar play_name",
+      "from_fields": ["play_name"],
+      "to_fields": ["play_name"],
+      "comparators": ["similar"]
+    }
+  },
+  {
+    "model": "data_graph.graphrelation",
+    "pk":2,
+    "fields": {
+      "graph_id": 1,
+      "name": "equal_index_type",
+      "from_fields": ["_index","_type"],
+      "to_fields": ["_index","_type"],
+      "comparators": ["equal"]
+    }
+  }
+]

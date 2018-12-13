@@ -1,0 +1,62 @@
+[
+  {
+    "model": "data_graph.relationtemplate",
+    "pk":1,
+    "fields": {
+      "name": "id",
+      "from_fields": ["_id"],
+      "to_fields": ["_id"],
+      "comparators": ["equal"]
+    }
+  },
+  {
+    "model": "data_graph.relationtemplate",
+    "pk":2,
+    "fields": {
+      "name": "type",
+      "from_fields": ["_type"],
+      "to_fields": ["_type"],
+      "comparators": ["equal"]
+    }
+  },
+  {
+    "model": "data_graph.relationtemplate",
+    "pk":3,
+    "fields": {
+      "name": "name",
+      "from_fields": ["person_name"],
+      "to_fields": ["person_name"],
+      "comparators": ["partial_ratio"]
+    }
+  },
+  {
+    "model": "data_graph.relationtemplate",
+    "pk":4,
+    "fields": {
+      "name": "email",
+      "from_fields": ["email"],
+      "to_fields": ["email"],
+      "comparators": ["equal_ignore_case"]
+    }
+  },
+  {
+    "model": "data_graph.relationtemplate",
+    "pk":5,
+    "fields": {
+      "name": "phone",
+      "from_fields": ["phone"],
+      "to_fields": ["phone"],
+      "comparators": ["include"]
+    }
+  },
+  {
+    "model": "data_graph.relationtemplate",
+    "pk":6,
+    "fields": {
+      "name": "address",
+      "from_fields": ["address"],
+      "to_fields": ["address"],
+      "comparators": ["partial_ratio"]
+    }
+  }
+]

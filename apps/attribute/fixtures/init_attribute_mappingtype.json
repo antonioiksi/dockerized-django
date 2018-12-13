@@ -1,0 +1,31 @@
+[
+  {
+    "model": "attribute.mappingtype",
+    "pk": 1,
+    "fields": {
+        "title": "ElasticSearch 5.6",
+        "description": "Кластер развернутый на 172.16.9.88, 172.16.9.92, 172.16.9.91",
+        "endpoint": "http://172.16.9.88:9200"
+    }
+  },
+  {
+    "model": "attribute.mappingtype",
+    "pk": 2,
+    "fields": {
+        "title": "ElasticSearch 6.2.3",
+        "description": "Кластер развернутый на 172.16.9.151, 172.16.9.152",
+        "endpoint": "http://172.16.9.151:9200",
+        "active": true
+    }
+  },
+  {
+    "model": "attribute.mappingtype",
+    "pk": 3,
+    "fields": {
+        "title": "Федерал",
+        "description": "Когда-нибудь появится",
+        "endpoint": ""
+    }
+  }
+
+]

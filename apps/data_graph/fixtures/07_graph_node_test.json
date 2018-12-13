@@ -1,0 +1,20 @@
+[
+  {
+    "model": "data_graph.graphnode",
+    "pk":1,
+    "fields": {
+      "graph_id": 1,
+      "model_id": 3,
+      "graph_data_id": 3
+    }
+  },
+  {
+    "model": "data_graph.graphnode",
+    "pk":2,
+    "fields": {
+      "graph_id": 1,
+      "model_id": 4,
+      "graph_data_id": 4
+    }
+  }
+]

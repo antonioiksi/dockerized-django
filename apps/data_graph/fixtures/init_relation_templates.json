@@ -1,0 +1,12 @@
+[
+  {
+    "model": "data_graph.relationtemplate",
+    "pk":1,
+    "fields": {
+      "name": "ИД",
+      "from_fields": ["_id"],
+      "to_fields": ["_id"],
+      "comparators": ["equal"]
+    }
+  }
+]

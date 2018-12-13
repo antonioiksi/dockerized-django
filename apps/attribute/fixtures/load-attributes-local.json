@@ -1,0 +1,18 @@
+[
+  {
+    "model": "attribute.attribute",
+    "pk": 1,
+    "fields": {
+      "name": "speaker",
+      "title": "speaker"
+    }
+  },
+  {
+    "model": "attribute.attribute",
+    "pk": 2,
+    "fields": {
+      "name": "king",
+      "title": "king"
+    }
+  }
+]

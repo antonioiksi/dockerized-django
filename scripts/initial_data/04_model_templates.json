@@ -1,0 +1,47 @@
+[
+  {
+    "model": "data_graph.modeltemplate",
+    "pk":1,
+    "fields": {
+      "name": "Личность",
+      "fields": ["person_name"],
+      "drawing_id": 1
+    }
+  },
+  {
+    "model": "data_graph.modeltemplate",
+    "pk":2,
+    "fields": {
+      "name": "Телефон",
+      "fields": ["phone"],
+      "drawing_id": 2
+    }
+  },
+  {
+    "model": "data_graph.modeltemplate",
+    "pk":3,
+    "fields": {
+      "name": "Организация",
+      "fields": ["company_name"],
+      "drawing_id": 3
+    }
+  },
+  {
+    "model": "data_graph.modeltemplate",
+    "pk":4,
+    "fields": {
+      "name": "Адрес",
+      "fields": ["address"],
+      "drawing_id": 4
+    }
+  },
+  {
+    "model": "data_graph.modeltemplate",
+    "pk":5,
+    "fields": {
+      "name": "Еmail",
+      "fields": ["email"],
+      "drawing_id": 5
+    }
+  }
+]

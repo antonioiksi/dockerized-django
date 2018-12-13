@@ -1,0 +1,14 @@
+[
+    {
+      "element": ".sidebar-search",
+      "intro": "Появился быстрый поиск.<br>В нем можно искать:<br>•ФИО<br>•Телефон<br>•E-mail",
+      "position": "right"
+    },
+    
+    {                        
+      "element": "#rotate-scale-up",
+      "intro": "Эта кнопка всегда подскажет последние функции проекта",
+      "position": "bottom"
+    }
+]
+
