@@ -14,9 +14,10 @@ RUN apk --no-cache add \
     postgresql-client \
     postgresql-dev \
     build-base \
-    gettext
+    gettext \
+    libxslt
 RUN pip3 install --upgrade pip
-RUN pip3 install -r requirements.txt
+# RUN pip3 install -r requirements.txt
 
 # clean
 RUN apk del -r python3-dev postgresql
